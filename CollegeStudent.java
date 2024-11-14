@@ -25,6 +25,6 @@ public class CollegeStudent extends Student{
 
     @Override
     public String toString(){
-        return super.toString() +" Major: "+ myMajor +" Year: "+ myYear;
+        return super.toString() +", Major: "+ myMajor +", Year: "+ myYear;
     }
 }

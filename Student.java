@@ -24,4 +24,9 @@ class Student extends Person{
         return myGPA;
     }
 
+    @Override
+    public String toString(){
+        return super.toString() + ", id: " +myIdNum+", GPA: "+ myGPA;
+    }
+
 }
