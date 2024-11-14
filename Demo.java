@@ -1,5 +1,6 @@
 public class Demo {
     public static void main(String[] args) {
+        System.out.println("");
         Person bob = new Person("Coach Bob", 27, "M"); 
         System.out.println("Person Object: "+bob);
 
