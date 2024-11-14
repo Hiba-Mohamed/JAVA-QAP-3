@@ -1,3 +1,4 @@
+package problem2;
 public class Point {
     private float x = 0.0f;
     private float y = 0.0f;
@@ -35,7 +36,7 @@ public class Point {
 
     @Override
     public String toString(){
-        return "("+this.x+","+this.y+")";
+        return "("+this.x + "," + this.y + ")";
     }
 
     
