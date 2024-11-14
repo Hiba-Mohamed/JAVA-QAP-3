@@ -1,3 +1,4 @@
+
 public class CollegeStudent extends Student{
     protected String myMajor; 
     protected int myYear;
