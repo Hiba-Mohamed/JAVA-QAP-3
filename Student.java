@@ -13,7 +13,7 @@ class Student extends Person{
         myIdNum = idNumber; 
     }
     public void setGPA(double GPA){
-        myGPA = myGPA;
+        GPA = myGPA;
     }
 
     // Getters
