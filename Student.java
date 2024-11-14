@@ -12,8 +12,8 @@ class Student extends Person{
     public void setIdNum(String idNumber){
         myIdNum = idNumber; 
     }
-    public void setGPA(double GPA){
-        GPA = myGPA;
+    public void setGPA(double gpa){
+        gpa = myGPA;
     }
 
     // Getters
