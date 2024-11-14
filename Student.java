@@ -7,4 +7,21 @@ class Student extends Person{
         // initialize what’s new to Student
         myIdNum = idNum;
         myGPA = gpa;}
+    
+    // Setters
+    public void setIdNum(String idNumber){
+        myIdNum = idNumber; 
+    }
+    public void setGPA(double GPA){
+        myGPA = myGPA;
+    }
+
+    // Getters
+    public String getIdNum(){
+        return myIdNum;
+    }
+    public double getGPA(){
+        return myGPA;
+    }
+
 }
