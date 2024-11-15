@@ -2,7 +2,7 @@ package problem3;
 
 public abstract class Shape {
     //Each shape should have a name, 
-    private String name;
+    protected String name;
 
     public Shape(String name){
         this.name = name;
