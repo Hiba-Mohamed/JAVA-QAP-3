@@ -15,7 +15,7 @@ public abstract class Shape {
 
         @Override
     public String toString() {
-        return "Shape: " + name + ", Area: " + computeArea() + ", Perimeter: " + computePerimeter();
+        return "Shape: " + name + ", Area: " + String.format("%.2f",computeArea()) + ", Perimeter: " + String.format("%.2f",computePerimeter());
     }
 
 }

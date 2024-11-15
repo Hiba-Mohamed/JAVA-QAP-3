@@ -34,6 +34,6 @@ public class Triangle extends Shape {
 
     @Override
     public String toString(){
-        return super.toString() + ", side 1: " + this.side1+ ", side 2: " + this.side2 + ", side 3: " + this.side3;
+        return super.toString() + ", side 1: " + String.format("%.2f",this.side1) + ", side 2: " + String.format("%.2f",this.side2) + ", side 3: " + String.format("%.2f",this.side3);
     }
 }

@@ -34,6 +34,10 @@ public class Ellipse extends Shape {
 
     @Override
     public String toString(){
-        return super.toString() + ", Major Axis: " + majorAxis + ", Minor Axis: " + minorAxis + ", Perimeter: " + computePerimeter() + ", Area: " + computeArea();
+        if (majorAxis == minorAxis){
+            return super.toString();
+        }
+        else{
+        return super.toString() + ", Major Axis: " + String.format("%.2f", majorAxis) + ", Minor Axis: " + String.format("%.2f",minorAxis);}
     }
 }
